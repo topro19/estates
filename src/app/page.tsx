@@ -215,7 +215,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
             
             {/* Left Column: Text Block */}
-            <div className="lg:col-span-5 lg:sticky lg:top-32 flex flex-col justify-start space-y-8">
+            <div className="lg:col-span-5 lg:sticky lg:top-32 flex flex-col items-center lg:items-start text-center lg:text-left space-y-8">
               <span className="font-mono text-xs uppercase tracking-[0.25em] text-brass bg-brass/10 border border-brass/20 px-3.5 py-1.5 rounded-full w-fit inline-block">
                 Client Voices
               </span>
@@ -226,7 +226,7 @@ export default function Home() {
               <p className="font-sans text-bone/60 text-base md:text-lg leading-relaxed max-w-lg">
                 Our clients are industry leaders, generational wealth holders, and discerning collectors who demand absolute discretion. Every engagement is governed by confidentiality agreements, and every outcome speaks for itself.
               </p>
-              <div className="flex items-center gap-8 pt-6 border-t border-brass/15">
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 md:gap-8 pt-6 border-t border-brass/15 w-full">
                 <div>
                   <div className="font-serif text-4xl md:text-5xl text-brass font-light">98%</div>
                   <div className="font-mono text-[10px] uppercase tracking-widest text-bone/50 mt-1">Client Retention</div>

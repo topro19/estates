@@ -69,7 +69,7 @@ export default function RevealHero() {
             className="w-full h-full"
           >
             <Image
-              src="/idk/ChatGPT Image Jun 9, 2026, 10_39_01 AM.png"
+              src="/idk/sky-background.png"
               alt="Sky background"
               fill
               priority
@@ -115,7 +115,7 @@ export default function RevealHero() {
               className="relative w-full max-w-[1680px] aspect-[16/10] md:aspect-[16/9] lg:aspect-[16/8.5] xl:aspect-[16/8] flex justify-center items-end origin-bottom"
             >
               <Image
-                src="/idk/ChatGPT Image Jun 11, 2026, 12_04_32 PM.png"
+                src="/idk/house.png"
                 alt="Luxury Estate House"
                 fill
                 priority
@@ -135,7 +135,7 @@ export default function RevealHero() {
         >
           <div className="relative w-full h-full scale-x-[-1]">
             <Image
-              src="/idk/ChatGPT Image Jun 9, 2026, 10_45_31 AM.png"
+              src="/idk/clouds-bg.png"
               alt="Clouds Background Flipped"
               fill
               className="object-cover object-bottom select-none pointer-events-none"
@@ -153,7 +153,7 @@ export default function RevealHero() {
         >
           <div className="relative w-full h-full">
             <Image
-              src="/idk/ChatGPT Image Jun 9, 2026, 10_45_31 AM.png"
+              src="/idk/clouds-bg.png"
               alt="Clouds Background"
               fill
               className="object-cover object-bottom select-none pointer-events-none"
@@ -171,7 +171,7 @@ export default function RevealHero() {
         >
           <div className="relative w-full h-full">
             <Image
-              src="/idk/ChatGPT Image Jun 9, 2026, 10_45_31 AM.png"
+              src="/idk/clouds-bg.png"
               alt="Clouds Midground Blurred"
               fill
               className="object-cover object-bottom select-none pointer-events-none"
@@ -189,7 +189,7 @@ export default function RevealHero() {
         >
           <div className="relative w-full h-full">
             <Image
-              src="/idk/ChatGPT Image Jun 9, 2026, 10_45_31 AM.png"
+              src="/idk/clouds-bg.png"
               alt="Clouds Foreground"
               fill
               className="object-cover object-bottom select-none pointer-events-none"
@@ -207,7 +207,7 @@ export default function RevealHero() {
         >
           <div className="relative w-full h-full scale-x-[-1]">
             <Image
-              src="/idk/ChatGPT Image Jun 9, 2026, 10_45_31 AM.png"
+              src="/idk/clouds-bg.png"
               alt="Clouds Foreground Flipped"
               fill
               className="object-cover object-bottom select-none pointer-events-none"
@@ -259,7 +259,7 @@ export default function RevealHero() {
       <div className="absolute bottom-[-50px] left-0 right-0 h-[40vh] pointer-events-none z-30 overflow-hidden">
         <div className="relative w-full h-full scale-x-[-1] opacity-40 blur-[6px]">
           <Image
-            src="/idk/ChatGPT Image Jun 9, 2026, 10_45_31 AM.png"
+            src="/idk/clouds-bg.png"
             alt="Transition Clouds"
             fill
             className="object-cover object-bottom select-none pointer-events-none"

@@ -43,7 +43,7 @@ export default function InteractiveServices() {
   return (
     <div className="relative z-10">
       {/* Section Title — in normal flow above the grid */}
-      <div className="mb-12 md:mb-16">
+      <div className="mb-12 md:mb-16 flex flex-col items-center lg:items-start text-center lg:text-left">
         <span className="font-mono text-xs uppercase tracking-[0.25em] text-brass bg-brass/10 border border-brass/20 px-3.5 py-1.5 rounded-full w-fit inline-block mb-5">
           Bespoke Services
         </span>
@@ -57,7 +57,7 @@ export default function InteractiveServices() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 lg:gap-0 items-stretch relative">
       
         {/* Left Column: Description & Clickable Service Tabs */}
-        <div className="flex flex-col justify-start space-y-8 lg:col-span-4 pr-0 lg:pr-12 py-8 lg:py-0">
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-8 lg:col-span-4 pr-0 lg:pr-12 py-8 lg:py-0">
           <p className="font-sans text-navy/70 text-base md:text-lg leading-relaxed max-w-lg">
             Astute operates at the intersection of architecture, luxury, and absolute privacy. We advise ultra-high-net-worth clients, family offices, and developers on acquiring and selling high-provenance assets globally with zero public trace.
           </p>
@@ -69,7 +69,7 @@ export default function InteractiveServices() {
                 <div
                   key={idx}
                   onClick={() => setActiveTab(idx)}
-                  className={`flex gap-4 p-4 rounded-2xl cursor-pointer select-none transition-all duration-300 border ${
+                  className={`flex gap-4 p-4 rounded-2xl cursor-pointer select-none transition-all duration-300 border text-left ${
                     isActive 
                       ? "bg-white/40 border-brass/35 shadow-[0_8px_24px_rgba(184,147,75,0.06)] backdrop-blur-sm" 
                       : "bg-transparent border-transparent hover:bg-white/10 hover:border-white/10"
