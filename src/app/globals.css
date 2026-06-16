@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Jost", sans-serif;
+
+  --color-navy: #101F30;
+  --color-brass: #B8934B;
+  --color-cream: #F6EBE5;
+  --color-sky: #6FA3C7;
+  --color-casper: #ADBED1;
+  --color-bone: #101F30;
+  --color-light-bone: #F4F1EB;
+  --color-black: #F6EBE5;
+  --color-glass: rgba(16, 31, 48, 0.04);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #F6EBE5;
+  --foreground: #101F30;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-navy font-sans antialiased overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-light tracking-tight text-navy;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-panel {
+    @apply bg-glass backdrop-blur-md border border-white/10;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-navy via-sky to-navy bg-clip-text text-transparent;
+  }
+}
+
+/* Parallax scrolling review animations */
+@keyframes scroll-up {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-33.333%); }
+}
+
+@keyframes scroll-up-slow {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-33.333%); }
+}
+
+.animate-scroll-up {
+  animation: scroll-up 30s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+.animate-scroll-up-slow {
+  animation: scroll-up-slow 45s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+.animate-scroll-up:hover,
+.animate-scroll-up-slow:hover {
+  animation-play-state: paused;
+}
